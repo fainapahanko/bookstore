@@ -1,4 +1,5 @@
 import React from 'react'
+import BookList from './BookList'
 import { } from "reactstrap";
 import FantasyJson  from '../data/fantasy.json'
 import HistoryJson  from '../data/history.json'
@@ -75,8 +76,8 @@ class MainComponent extends React.Component {
                     </Col> */}
                 </div>
             </Row>
+
         )
     }
 }
 
-export default MainComponent
