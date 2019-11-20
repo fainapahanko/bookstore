@@ -1,0 +1,35 @@
+/*external media*/
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+/*main div with books*/
+.books-container{
+    background-color: rgb(240, 240, 240);
+    padding: 30px;
+}
+
+/*MainComponent style*/
+.container{
+    padding: 0 !important;
+    margin: 0 !important;
+    max-width: 100vw;
+}
+/*column with books css*/
+.book-column{
+    margin: 20px 40px;
+}
+.category-header{
+    font-family: 'Playfair Display', serif;;
+}
+/*navbar*/
+.nav-bar{
+    background-color: white;
+    padding: 10px 50px 0px 30px;
+}
+.nav-item .nav-link{
+    color:black;
+}
+.nav{
+    width:100%;
+}
+.form-inline{
+    margin-left: auto;
+}
