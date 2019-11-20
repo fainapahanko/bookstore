@@ -5,7 +5,15 @@
     background-color: rgb(240, 240, 240);
     padding: 30px;
 }
-
+.badge{
+    width:100px;
+    height:50px;
+    text-align: center;
+    padding: 20px !important;
+}
+.warning-sign{
+    padding-left: 50%;
+}
 /*MainComponent style*/
 .container{
     padding: 0 !important;
@@ -31,5 +39,11 @@
     width:100%;
 }
 .form-inline{
-    margin-left: auto;
+    margin-left: 400px;
+}
+.jumbotron{
+    background-image: url("/assets/img/stanislav-kondratiev-6pO3QFkk7hQ-unsplash.jpg");
+}
+.jumbotron > * {
+    color:white;
 }

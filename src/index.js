@@ -4,7 +4,7 @@ import './index.css';
 import MainComponent from '../src/Components/MainComponent'
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
-import BookList from './components/BookList';
+// import BookList from './components/BookList';
 
 ReactDOM.render(<MainComponent />, document.getElementById('root'));
 
@@ -13,4 +13,4 @@ ReactDOM.render(<MainComponent />, document.getElementById('root'));
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
 
-render (<BookList/>, document.getElementById('root'))
+// render (<BookList/>, document.getElementById('root'))
